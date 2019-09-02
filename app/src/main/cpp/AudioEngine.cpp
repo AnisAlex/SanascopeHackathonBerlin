@@ -1,11 +1,11 @@
 #include "AudioEngine.h"
 
-AudioEngine::AudioEngine() : Loggable("SAudioEngine") {
+AudioEngine::AudioEngine(int32_t deviceID) : Loggable("SAudioEngine") {
     infoLog("Creating audio engine...");
     state = EngineState::Idle;
     record = new AudioRecord(Stream::maxRecordSize);
     filter = new FilterAdapter(Stream::samplingRate, Stream::samplingRate/12);
-    inStream = new InStream();
+    inStream = new InStream(deviceID);
     outStream = new OutStream(this);
     infoLog("Audio engine created successfully.");
 }

@@ -1,2 +1,2 @@
-ninja: Entering directory `C:\Sanascope\Projects\UI\SanascopeHackathonBerlin\app\.cxx\cmake\debug\x86'
-ninja: no work to do.
+[1/2] Building CXX object CMakeFiles/native-lib.dir/InStream.cpp.o
+[2/2] Linking CXX shared library C:\Sanascope\Projects\UI\SanascopeHackathonBerlin\app\build\intermediates\cmake\debug\obj\x86\libnative-lib.so

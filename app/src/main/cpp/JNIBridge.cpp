@@ -6,10 +6,10 @@ AudioEngine* ac = nullptr;
 Loggable* logger = new Loggable("SJniBridge");
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_sanascope_sanahackberdemo_MainActivity_initialize(JNIEnv *env, jobject /* this */) {
+Java_com_sanascope_sanahackberdemo_MainActivity_initialize(JNIEnv *env, jobject /* this */, jint deviceID) {
     logger->infoLog("Initializing...");
     if (!ac) {
-        ac = new AudioEngine();
+        ac = new AudioEngine(deviceID);
     }
     logger->infoLog("Initialization finished.");
 }

@@ -1,6 +1,6 @@
 #include "InStream.h"
 
-InStream::InStream() {
+InStream::InStream(int32_t deviceID) {
     infoLog("Creating inStream...");
     oboe::Result result;
 
@@ -11,11 +11,13 @@ InStream::InStream() {
             -> setFormat(Stream::format)
             -> setSampleRate(Stream::samplingRate);*/
 
-    streamBuilder -> setDirection(oboe::Direction::Input)
-            -> setCallback(nullptr);
+    streamBuilder->setDirection(oboe::Direction::Input)
+            ->setDeviceId(deviceID)
+            ->setCallback(nullptr);
+
     Loggable::infoLog("Opening inStream...");
     result = streamBuilder->openStream(&stream);
-    if (result != oboe::Result::OK){
+    if (result != oboe::Result::OK) {
         Loggable::errorLog("Error opening inStream: ", oboe::convertToText(result), "!");
     }
     Loggable::infoLog("Input stream created successfully.");

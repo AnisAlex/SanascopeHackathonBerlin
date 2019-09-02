@@ -29,7 +29,7 @@ private:
     void stopThroughput();
 
 public:
-    AudioEngine();
+    AudioEngine(int32_t deviceID);
     void startRecording();
     void stopRecording();
     void startListening();

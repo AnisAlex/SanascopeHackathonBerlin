@@ -1,24 +1,21 @@
 {
   "buildFiles": [
-    "C:\\Sanascope\\Projects\\UI\\oboe\\CMakeLists.txt",
-    "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
     "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake"
+    "C:\\Sanascope\\Projects\\UI\\oboe\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\" clean"
+    "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64 --target clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-x86_64": {
       "artifactName": "native-lib",
-      "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\" native-lib",
+      "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64 --target native-lib",
       "abi": "x86_64",
       "output": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libnative-lib.so"
     },
     "oboe-Release-x86_64": {
       "artifactName": "oboe",
-      "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\" oboe",
+      "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64 --target oboe",
       "abi": "x86_64",
       "output": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\\oboe\\liboboe.a"
     }

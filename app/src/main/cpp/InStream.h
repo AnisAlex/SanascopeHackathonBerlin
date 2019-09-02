@@ -6,7 +6,7 @@
 
 class InStream : public Stream {
 public:
-    InStream();
+    InStream(int32_t deviceID);
     oboe::ResultWithValue<int32_t> read(void* audioData, int32_t numFrames);
 };
 

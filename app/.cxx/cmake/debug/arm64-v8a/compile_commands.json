@@ -1,7 +1,229 @@
 [
 {
   "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
-  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\native-lib.cpp",
-  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\native-lib.cpp"
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\JNIBridge.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\JNIBridge.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\JNIBridge.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\AudioEngine.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\AudioEngine.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\AudioEngine.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\AudioRecord.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\AudioRecord.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\AudioRecord.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\Stream.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\Stream.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\Stream.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\InStream.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\InStream.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\InStream.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\OutStream.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\OutStream.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\OutStream.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -I\"C:/Program Files/boost/boost_1_70_0\" -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\FilterAdapter.cpp.o -c C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\FilterAdapter.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\FilterAdapter.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\aaudio\\AAudioLoader.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\aaudio\\AAudioLoader.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\aaudio\\AAudioLoader.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\aaudio\\AudioStreamAAudio.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\LatencyTuner.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\LatencyTuner.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\LatencyTuner.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\AudioStream.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\AudioStream.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\AudioStream.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\AudioStreamBuilder.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\AudioStreamBuilder.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\AudioStreamBuilder.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\Utilities.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Utilities.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Utilities.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoBuffer.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoBuffer.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoBuffer.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoController.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoController.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoController.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoControllerBase.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoControllerBase.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoControllerBase.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoControllerIndirect.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoControllerIndirect.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoControllerIndirect.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\AudioProcessorBase.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\AudioProcessorBase.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\AudioProcessorBase.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\ClipToRange.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\ClipToRange.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\ClipToRange.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\ManyToMultiConverter.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\MonoToMultiConverter.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\RampLinear.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\RampLinear.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\RampLinear.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkFloat.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkFloat.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkFloat.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkI16.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkI16.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkI16.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkI24.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkI24.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkI24.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceFloat.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceFloat.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceFloat.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceI16.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceI16.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceI16.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceI24.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceI24.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceI24.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioInputStreamOpenSLES.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioOutputStreamOpenSLES.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioStreamBuffered.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioStreamBuffered.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioStreamBuffered.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioStreamOpenSLES.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\EngineOpenSLES.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\EngineOpenSLES.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\EngineOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\OpenSLESUtilities.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\OpenSLESUtilities.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\OpenSLESUtilities.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\OutputMixerOpenSLES.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\StabilizedCallback.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\StabilizedCallback.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\StabilizedCallback.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\Trace.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Trace.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Trace.cpp"
+},
+
+{
+  "directory": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\Version.cpp.o -c C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Version.cpp",
+  "file": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Version.cpp"
 }
 ]

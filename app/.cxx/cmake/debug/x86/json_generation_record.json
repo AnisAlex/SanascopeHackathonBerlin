@@ -21,15 +21,23 @@
   },
   {
     "level": "INFO",
-    "message": "- a dependent build file changed"
+    "message": "- expected json C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json file is not present, will remove stale json folder"
   },
   {
     "level": "INFO",
-    "message": "  - C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "message": "- missing previous command file C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\x86\\build_command.txt, will remove stale json folder"
   },
   {
     "level": "INFO",
-    "message": "keeping json folder \u0027C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\x86\u0027 but regenerating project"
+    "message": "- command changed from previous, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\x86\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\x86\u0027"
   },
   {
     "level": "INFO",

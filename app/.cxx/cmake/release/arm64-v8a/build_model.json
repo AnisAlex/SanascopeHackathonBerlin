@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin",
+      "sdkFolder": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app",
+      "makeFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\.cxx",
+      "cxxFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a",
+  "jsonFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a",
+  "objFolder": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+  "buildCommandFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\arm64-v8a\\compile_commands.json"
+}

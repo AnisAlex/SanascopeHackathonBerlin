@@ -1,9 +1,11 @@
 {
   "stringTable": {
     "0": "C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/armeabi-v7a",
-    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -Dnative_lib_EXPORTS -IC:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/../../../../../oboe/include -IC:/Program Files/boost/boost_1_70_0 -IC:/Sanascope/Projects/UI/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -IC:/Sanascope/Projects/UI/oboe/src -IC:/Sanascope/Projects/UI/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror"
   },
   "buildFiles": [
+    "C:\\Sanascope\\Projects\\UI\\oboe\\CMakeLists.txt",
     "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
     "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\CMakeLists.txt",
     "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake"
@@ -13,6 +15,172 @@
   ],
   "buildTargetsCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
+    "oboe-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" oboe",
+      "buildType": "debug",
+      "toolchain": "2057695491",
+      "abi": "armeabi-v7a",
+      "artifactName": "oboe",
+      "files": [
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\aaudio\\AAudioLoader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\LatencyTuner.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\AudioStream.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\AudioStreamBuilder.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Utilities.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoBuffer.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoController.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoControllerBase.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\fifo\\FifoControllerIndirect.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\AudioProcessorBase.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\ClipToRange.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\RampLinear.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkFloat.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkI16.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SinkI24.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceFloat.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceI16.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\flowgraph\\SourceI24.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioStreamBuffered.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\EngineOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\OpenSLESUtilities.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\StabilizedCallback.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Trace.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\oboe\\src\\common\\Version.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\oboe\\liboboe.a"
+    },
     "native-lib-Debug-armeabi-v7a": {
       "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" native-lib",
       "buildType": "debug",
@@ -21,7 +189,37 @@
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\native-lib.cpp",
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\JNIBridge.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\AudioEngine.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\AudioRecord.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\Stream.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\InStream.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\OutStream.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\FilterAdapter.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }

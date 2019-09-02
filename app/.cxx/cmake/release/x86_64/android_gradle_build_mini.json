@@ -1,5 +1,6 @@
 {
   "buildFiles": [
+    "C:\\Sanascope\\Projects\\UI\\oboe\\CMakeLists.txt",
     "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
     "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\src\\main\\cpp\\CMakeLists.txt",
     "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake"
@@ -14,6 +15,12 @@
       "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\" native-lib",
       "abi": "x86_64",
       "output": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libnative-lib.so"
+    },
+    "oboe-Release-x86_64": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Users\\AlAn\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\" oboe",
+      "abi": "x86_64",
+      "output": "C:\\Sanascope\\Projects\\UI\\SanascopeHackathonBerlin\\app\\.cxx\\cmake\\release\\x86_64\\oboe\\liboboe.a"
     }
   }
 }

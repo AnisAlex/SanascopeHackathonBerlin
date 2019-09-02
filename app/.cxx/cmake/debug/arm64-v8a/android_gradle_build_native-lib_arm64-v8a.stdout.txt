@@ -1,0 +1,41 @@
+ninja: Entering directory `C:\Sanascope\Projects\UI\SanascopeHackathonBerlin\app\.cxx\cmake\debug\arm64-v8a'
+[1/40] Building CXX object CMakeFiles/native-lib.dir/FilterAdapter.cpp.o
+[2/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o
+[3/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o
+[4/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o
+[5/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o
+[6/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o
+[7/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/AudioProcessorBase.cpp.o
+[8/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ClipToRange.cpp.o
+[9/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/MonoToMultiConverter.cpp.o
+[10/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ManyToMultiConverter.cpp.o
+[11/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o
+[12/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o
+[13/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI24.cpp.o
+[14/40] Building CXX object CMakeFiles/native-lib.dir/InStream.cpp.o
+[15/40] Building CXX object CMakeFiles/native-lib.dir/Stream.cpp.o
+[16/40] Building CXX object CMakeFiles/native-lib.dir/OutStream.cpp.o
+[17/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o
+[18/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI16.cpp.o
+[19/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/RampLinear.cpp.o
+[20/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o
+[21/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Trace.cpp.o
+[22/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Version.cpp.o
+[23/40] Building CXX object CMakeFiles/native-lib.dir/JNIBridge.cpp.o
+[24/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI24.cpp.o
+[25/40] Building CXX object CMakeFiles/native-lib.dir/AudioEngine.cpp.o
+[26/40] Building CXX object CMakeFiles/native-lib.dir/AudioRecord.cpp.o
+[27/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkFloat.cpp.o
+[28/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceFloat.cpp.o
+[29/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o
+[30/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI16.cpp.o
+[31/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o
+[32/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o
+[33/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o
+[34/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o
+[35/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o
+[36/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o
+[37/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o
+[38/40] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o
+[39/40] Linking CXX static library oboe\liboboe.a
+[40/40] Linking CXX shared library C:\Sanascope\Projects\UI\SanascopeHackathonBerlin\app\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so

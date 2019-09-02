@@ -1,0 +1,11 @@
+ninja: Entering directory `C:\Sanascope\Projects\UI\SanascopeHackathonBerlin\app\.cxx\cmake\debug\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+FAILED: CMakeFiles/native-lib.dir/native-lib.cpp.o 
+C:\Users\AlAn\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/AlAn/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/native-lib.cpp.o -MF CMakeFiles\native-lib.dir\native-lib.cpp.o.d -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/native-lib.cpp
+In file included from C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/native-lib.cpp:3:
+In file included from C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/AudioEngine.h:4:
+C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/src/main/cpp/AudioRecord.h:9:10: fatal error: 'boost/endian/arithmetic.hpp' file not found
+#include <boost/endian/arithmetic.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

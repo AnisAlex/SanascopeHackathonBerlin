@@ -1,3 +1,6 @@
 C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
 C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
 C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/x86/oboe/CMakeFiles/oboe.dir
+C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/x86/oboe/CMakeFiles/edit_cache.dir
+C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/.cxx/cmake/debug/x86/oboe/CMakeFiles/rebuild_cache.dir

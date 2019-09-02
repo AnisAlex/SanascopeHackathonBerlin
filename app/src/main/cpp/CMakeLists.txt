@@ -17,7 +17,14 @@ add_library( # Sets the name of the library.
         SHARED
 
         # Provides a relative path to your source file(s).
-        native-lib.cpp)
+        JNIBridge.cpp
+        AudioEngine.cpp
+        AudioRecord.cpp
+        Stream.cpp
+        InStream.cpp
+        OutStream.cpp
+        FilterAdapter.cpp
+        )
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -27,6 +34,8 @@ add_library( # Sets the name of the library.
 
 find_library( # Sets the name of the path variable.
         log-lib
+
+        oboe
 
         # Specifies the name of the NDK library that
         # you want CMake to locate.
@@ -39,6 +48,17 @@ find_library( # Sets the name of the path variable.
 target_link_libraries( # Specifies the target library.
         native-lib
 
+        oboe
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})
+
+# Set the path to the Oboe directory.
+set (OBOE_DIR ../../../../../oboe)
+
+# Add the Oboe library as a subdirectory in your project.
+add_subdirectory (${OBOE_DIR} ./oboe)
+
+# Specify the path to the header files.
+include_directories (${OBOE_DIR}/include)
+include_directories ("C:/Program Files/boost/boost_1_70_0")

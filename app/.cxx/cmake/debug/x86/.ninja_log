@@ -41,3 +41,7 @@
 2123	2236	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c0b4d0155049ba5d
 4	465	0	CMakeFiles/native-lib.dir/InStream.cpp.o	c216f89ed3c25ba9
 465	573	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c0b4d0155049ba5d
+4	531	0	CMakeFiles/native-lib.dir/InStream.cpp.o	c216f89ed3c25ba9
+531	820	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c0b4d0155049ba5d
+4	640	0	CMakeFiles/native-lib.dir/JNIBridge.cpp.o	9758692e83953ced
+640	753	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c0b4d0155049ba5d

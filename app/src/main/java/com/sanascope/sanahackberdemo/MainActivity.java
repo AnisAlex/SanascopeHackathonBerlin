@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         permissionHandler = new PermissionHandler(this);
         permissionHandler.requestAllPermission(this);
 
-
+//        for (int i = 0; i<500; i++){
+//            binding.waveView.addColumn(((float) i) / 500.0f);
+//        }
     }
 
     private int getHeadsetInputDeviceID() throws IllegalStateException {
@@ -110,14 +112,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         } else if (view == binding.buttonConnect) {
             Log.d("SSNVS", "connectButtonClicked");
-            try {
-                int deviceID = getHeadsetInputDeviceID();
-                initialize(deviceID);
-                binding.buttonRecord.setEnabled(true);
-            } catch (IllegalStateException e) {
-                Log.e("SSNVS", "", e);
-            }
+            initialize(Integer.MAX_VALUE);
+            binding.buttonRecord.setEnabled(true);
+//            try {
+//                int deviceID = getHeadsetInputDeviceID();
+//                initialize(deviceID);
+//                binding.buttonRecord.setEnabled(true);
+//            } catch (IllegalStateException e) {
+//                Log.e("SSNVS", "", e);
+//            }
         }
+        binding.waveView.addColumn(.5f);
+        binding.waveView.addColumn(.6f);
+        binding.waveView.addColumn(.7f);
+        binding.waveView.addColumn(.8f);
+    }
+
+    public void addColumn (int percentage) {
+        binding.waveView.addColumn(((float) percentage) / 100f);
     }
 
     /**
@@ -125,9 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * which is packaged with this application.
      */
     public native void initialize(int deviceID);
-
     public native void startRecording();
-
     public native void stopRecording();
 
 }

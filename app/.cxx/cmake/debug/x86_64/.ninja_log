@@ -39,3 +39,7 @@
 1440	2110	0	CMakeFiles/native-lib.dir/AudioEngine.cpp.o	e7bbbd6a3a109bb4
 1439	2124	0	CMakeFiles/native-lib.dir/AudioRecord.cpp.o	997764872dcfbaf9
 2124	2240	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	9c7223facc7da1a5
+6	514	0	CMakeFiles/native-lib.dir/InStream.cpp.o	f7f8bb7c9522b2d4
+514	817	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	9c7223facc7da1a5
+5	652	0	CMakeFiles/native-lib.dir/JNIBridge.cpp.o	e1b7da79e5164aba
+652	772	0	C:/Sanascope/Projects/UI/SanascopeHackathonBerlin/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	9c7223facc7da1a5

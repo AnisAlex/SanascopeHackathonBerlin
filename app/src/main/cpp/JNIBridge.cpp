@@ -2,14 +2,21 @@
 #include <string>
 #include "AudioEngine.h"
 
-AudioEngine* ac = nullptr;
-Loggable* logger = new Loggable("SJniBridge");
+AudioEngine *ac = nullptr;
+Loggable *logger = new Loggable("SJniBridge");
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_sanascope_sanahackberdemo_MainActivity_initialize(JNIEnv *env, jobject /* this */, jint deviceID) {
+Java_com_sanascope_sanahackberdemo_MainActivity_initialize(JNIEnv *env, jobject obj /* this */,
+                                                           jint deviceID) {
     logger->infoLog("Initializing...");
     if (!ac) {
         ac = new AudioEngine(deviceID);
+        jint percentage = 50;
+        jclass clazz = env->FindClass("com/sanascope/sanahackberdemo/MainActivity");
+        jmethodID addColumn = env->GetMethodID(clazz, "addColumn", "(I)V");
+//        for (int i = 0; i<100; i++) {
+        env->CallObjectMethod(obj, addColumn, percentage);
+//        }
     }
     logger->infoLog("Initialization finished.");
 }
@@ -71,7 +78,7 @@ Java_com_sanascope_sanahackberdemo_MainActivity_stopPlaying(JNIEnv *env, jobject
 
 extern "C" JNIEXPORT void JNICALL
 Java_com_sanascope_sanahackberdemo_MainActivity_setAmplification(JNIEnv *env, jobject /* this */,
-                                                              jint newValue) {
+                                                                 jint newValue) {
     if (!ac) {
         logger->errorLog("No AudioEngine object.");
     }
@@ -81,9 +88,9 @@ Java_com_sanascope_sanahackberdemo_MainActivity_setAmplification(JNIEnv *env, jo
 
 extern "C" JNIEXPORT jboolean JNICALL
 Java_com_sanascope_sanahackberdemo_MainActivity_storeRecord(JNIEnv *env, jobject /* this */,
-                                                              jstring jFilepath) {
+                                                            jstring jFilepath) {
     //path
-    const char* path = env->GetStringUTFChars(jFilepath, 0);
+    const char *path = env->GetStringUTFChars(jFilepath, 0);
     env->ReleaseStringUTFChars(jFilepath, path);
     std::string filepath = std::string(path);
     if (!ac) {

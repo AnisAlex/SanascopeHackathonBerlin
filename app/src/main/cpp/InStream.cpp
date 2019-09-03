@@ -12,8 +12,10 @@ InStream::InStream(int32_t deviceID) {
             -> setSampleRate(Stream::samplingRate);*/
 
     streamBuilder->setDirection(oboe::Direction::Input)
-            ->setDeviceId(deviceID)
             ->setCallback(nullptr);
+    if (deviceID != INT32_MAX) {
+        streamBuilder->setDeviceId(deviceID);
+    }
 
     Loggable::infoLog("Opening inStream...");
     result = streamBuilder->openStream(&stream);
